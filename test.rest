@@ -1,0 +1,17 @@
+GET http://localhost:1500
+
+###
+POST http://localhost:1500
+
+###
+POST http://localhost:1500/registration
+Content-Type: application/json
+
+###
+POST http://localhost:1500/login
+Content-Type: application/json
+
+###
+GET http://localhost:1500/profile
+Content-Type: application/json
+Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAbnV0ZWNoLWludGVncmFzaS5jb20iLCJpYXQiOjE3MTA3NjA1NjUsImV4cCI6MTcxMDgwMzc2NX0.IjPirhnDWrGkDdHZ52D1VaE7x08uCv23cM5BYI_lwnA
